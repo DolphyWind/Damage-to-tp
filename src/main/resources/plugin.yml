@@ -1,0 +1,15 @@
+name: TakeDMGToTp
+version: '${project.version}'
+main: me.dolphy69.takedmgtotp.TakeDMGToTp
+api-version: 1.19
+authors: [ Dolphy69 ]
+description: If you take damage you tp
+commands:
+  dmgtotp:
+    description: Enable/disable damage to tp
+    usage: /<command> <enable|disable|toggle|status>
+    default: op
+  tprange:
+    description: Change/view range
+    usage: /<command> <set|value> [newValue]
+    default: op
